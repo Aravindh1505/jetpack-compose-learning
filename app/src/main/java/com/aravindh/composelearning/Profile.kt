@@ -139,8 +139,10 @@ fun SocialMedia() {
 
 @Composable
 fun Portfolio() {
-    CustomSpacer(height = 20.dp)
-    Button(onClick = { }) {
+    CustomSpacer(height = 30.dp)
+    Button(onClick = {
+
+    }) {
         Text(text = "Follow")
     }
 }
